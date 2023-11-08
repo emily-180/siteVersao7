@@ -1,0 +1,44 @@
+.objetivos {
+    margin: 20px;
+    background-color: rgb(218, 221, 218);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.objetivo {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.objetivo .icone {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.objetivo h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.objetivos h2{
+    color:#000;
+}
+ div h2{
+    color:#000;
+ }
+
+.objetivo p {
+    color: #555;
+}
+
+.icone-amarelo {
+    color: #fdf039; 
+}
+
+section h3{
+    color: black;
+}
