@@ -25,7 +25,7 @@ function loadProfessoresFromGoogleSheet() {
                 const grauInstrucao = row[2];
                 const foto = row[3];
                 const professorDiv = document.createElement('div');
-                professorDiv.className = 'col-md-4  card';
+                professorDiv.className = 'col-md-4';
                 professorDiv.innerHTML = `
                     <div class="card">
                         <img src="${foto}" alt="${nome}" class="img-fluid">
