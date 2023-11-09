@@ -25,9 +25,9 @@ function loadProfessoresFromGoogleSheet() {
                 const grauInstrucao = row[2];
                 const foto = row[3];
                 const professorDiv = document.createElement('div');
-                professorDiv.className = 'col-md-4';
+                professorDiv.className = 'col-md-4  card';
                 professorDiv.innerHTML = `
-                    <div class="professor">
+                    <div class="card">
                         <img src="${foto}" alt="${nome}" class="img-fluid">
                         <h3>${nome}</h3>
                         <p>Área: ${area}</p>
@@ -42,7 +42,7 @@ function loadProfessoresFromGoogleSheet() {
 
 function loadBolsistasFromGoogleSheet() {
     const spreadsheetId = '1bnIVpHL_md8u_XXo-zA3ZJGbA2J_ijj0XtlJJjOPzvk'; 
-    const sheetName = 'pagina2'; // Altere para a folha correta onde estão os dados dos bolsistas
+    const sheetName = 'pagina2'; 
     gapi.client.sheets.spreadsheets.values.get({
         spreadsheetId: spreadsheetId,
         range: sheetName
@@ -57,9 +57,9 @@ function loadBolsistasFromGoogleSheet() {
                 const anoPeriodo = row[2];
                 const foto = row[3];
                 const bolsistaDiv = document.createElement('div');
-                bolsistaDiv.className = 'col-md-4 bolsista';
+                bolsistaDiv.className = 'col-md-4 card';
                 bolsistaDiv.innerHTML = `
-                    <div class="bolsista">
+                    <div class="card">
                         <img src="${foto}" alt="${nome}" class="img-fluid">
                         <h3>${nome}</h3>
                         <p>Curso: ${area}</p>
