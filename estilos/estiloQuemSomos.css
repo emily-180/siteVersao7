@@ -1,13 +1,16 @@
+/* Adicione este trecho ao seu arquivo de estilos ou crie um novo arquivo para esses estilos */
+
 .cards {
     padding: 40px 0;
 }
+
 .card {
-    background-color: #f8f9fa; 
-    border: 1px solid black;
-    border-radius: 10px;
+    background-color: #ffffff; /* Cor de fundo branca */
+    border: 1px solid #dddddd; /* Borda cinza claro */
+    border-radius: 15px; /* Borda arredondada */
     margin-bottom: 20px;
-    padding: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -20,24 +23,26 @@
 .card h3 {
     font-size: 1.8rem;
     margin-bottom: 10px;
-    color: black;
+    color: #333333; /* Cor do texto mais escura */
 }
 
 .card p {
     margin: 8px 0;
-    color: #6c757d;
+    color: #666666; /* Cor do texto um pouco mais escura */
 }
+/* Adicione este trecho ao seu arquivo de estilos ou crie um novo arquivo para esses estilos */
 
 .cards {
     padding: 40px 0;
 }
+
 .card {
-    background-color: #f8f9fa; 
-    border: 1px solid black;
-    border-radius: 10px;
+    background-color: #ffffff; /* Cor de fundo branca */
+    border: 1px solid #dddddd; /* Borda cinza claro */
+    border-radius: 15px; /* Borda arredondada */
     margin-bottom: 20px;
-    padding: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -50,11 +55,10 @@
 .card h3 {
     font-size: 1.8rem;
     margin-bottom: 10px;
-    color: black;
+    color: #333333; /* Cor do texto mais escura */
 }
 
 .card p {
     margin: 8px 0;
-    color: #6c757d;
+    color: #666666; /* Cor do texto um pouco mais escura */
 }
-
