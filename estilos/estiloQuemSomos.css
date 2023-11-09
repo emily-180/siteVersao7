@@ -1,41 +1,10 @@
-.professores {
+.cards {
     padding: 40px 0;
 }
 
-.professor {
-    background-color: #f5f5f5; 
-    border: 1px solid black; 
-    border-radius: 10px;
-    margin-bottom: 20px;
-    padding: 15px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.professor img {
-    border-radius: 50%;
-    max-width: 120px;
-    margin-bottom: 15px; 
-}
-
-.professor h3 {
-    font-size: 1.8rem; 
-    margin-bottom: 10px;
-    color: black;
-}
-
-.professor p {
-    margin: 8px 0; 
-    color: #333;
-}
-
-.bolsistas {
-    padding: 40px 0;
-}
-
-.bolsista {
+.card {
     background-color: #f8f9fa; 
-    border: 1px solid #ced4da;
+    border: 1px solid black;
     border-radius: 10px;
     margin-bottom: 20px;
     padding: 15px;
@@ -43,19 +12,19 @@
     text-align: center;
 }
 
-.bolsista img {
+.card img {
     border-radius: 50%;
     max-width: 120px;
     margin-bottom: 15px;
 }
 
-.bolsista h3 {
+.card h3 {
     font-size: 1.8rem;
     margin-bottom: 10px;
     color: #343a40; 
 }
 
-.bolsista p {
+.card p {
     margin: 8px 0;
     color: #6c757d;
 }
