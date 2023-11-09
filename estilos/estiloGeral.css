@@ -13,7 +13,9 @@ body{
 .letra{
     color:white;
 }
-
+.letraPretas{
+     color:black;
+}
 h1,h2,h3{
     color:#fff34b;
 }
