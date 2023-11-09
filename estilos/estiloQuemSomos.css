@@ -3,16 +3,16 @@
 }
 
 .professor {
-    background-color: #fff;
+    background-color: whitesmoke;
     border-radius: 10px;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 .professor img {
-    border-radius: 50%;
+    border-radius: 40%;
     max-width: 100px;
     margin-bottom: 10px;
 }
@@ -20,6 +20,7 @@
 .professor h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    color:  black;
 }
 
 .professor p {
