@@ -1,11 +1,13 @@
+/* Adicione este trecho ao seu arquivo de estilos ou crie um novo arquivo para esses estilos */
+
 .cards {
     padding: 40px 0;
 }
 
 .card {
-    background-color: #ffffff; 
-    border: 1px solid #000000; 
-    border-radius: 15px; 
+    background-color: #ffffff; /* Cor de fundo branca */
+    border: 1px solid #dddddd; /* Borda cinza claro */
+    border-radius: 15px; /* Borda arredondada */
     margin-bottom: 20px;
     padding: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -13,19 +15,20 @@
 }
 
 .card img {
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem */
     border-radius: 50%;
     max-width: 120px;
     margin-bottom: 15px;
-    text-align: center;
 }
 
 .card h3 {
     font-size: 1.8rem;
     margin-bottom: 10px;
-    color: #333333; /
+    color: #333333; /* Cor do texto mais escura */
 }
 
 .card p {
     margin: 8px 0;
-    color: #3b3a3a; /* Cor do texto um pouco mais escura */
+    color: #666666; /* Cor do texto um pouco mais escura */
 }
