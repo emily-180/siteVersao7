@@ -1,7 +1,6 @@
 .cards {
     padding: 40px 0;
 }
-
 .card {
     background-color: #f8f9fa; 
     border: 1px solid black;
@@ -10,8 +9,6 @@
     padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin-right: 15px;
-    margin-left: 15px;
 }
 
 .card img {
@@ -23,7 +20,37 @@
 .card h3 {
     font-size: 1.8rem;
     margin-bottom: 10px;
-    color: #343a40; 
+    color: black;
+}
+
+.card p {
+    margin: 8px 0;
+    color: #6c757d;
+}
+
+.cards {
+    padding: 40px 0;
+}
+.card {
+    background-color: #f8f9fa; 
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    border-radius: 50%;
+    max-width: 120px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: black;
 }
 
 .card p {
