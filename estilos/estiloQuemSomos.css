@@ -1,0 +1,27 @@
+.professores {
+    padding: 40px 0;
+}
+
+.professor {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.professor img {
+    border-radius: 50%;
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.professor h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.professor p {
+    margin: 5px 0;
+}
