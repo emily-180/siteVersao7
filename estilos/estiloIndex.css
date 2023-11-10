@@ -1,7 +1,7 @@
 .objetivos {
-    margin: 20px;
+    margin: 30px;
     background-color: rgb(236, 236, 235);
-    padding: 50px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -41,4 +41,21 @@
 
 section h3{
     color: black;
+}
+@media (max-width: 768px) {
+    .objetivo {
+        margin-right: 0;
+    }
+    .objetivo h2 {
+        font-size: 18px;
+    }
+    .objetivo p {
+        font-size: 15px;
+    }
+    .img-fluid {
+        width: 70%; /* ou outro valor desejado */
+        height: auto;
+        display: block;
+        margin: 0 auto; /* Isso centralizará a imagem */
+    }
 }
