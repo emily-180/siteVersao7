@@ -1,3 +1,17 @@
+@media (max-width: 768px) {
+    .divCabecalho h1 {
+        font-size: 21px !important; 
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .divCabecalho p {
+        font-size: 14px;    
+        text-align: center;
+    }
+}
+
+
 *{
     font-family: Arial, Helvetica, sans-serif
 }
@@ -5,7 +19,9 @@
 body{
     background-color: #fff34b;
 }
-
+.divCabecalho p{
+    text-align: justify;
+}
 .cor{
     background-color: #555;
 }
@@ -13,9 +29,7 @@ body{
 .letra{
     color:white;
 }
-.letraPretas{
-     color:black;
-}
+
 h1,h2,h3{
     color:#fff34b;
 }
@@ -28,9 +42,3 @@ h1,h2,h3{
     margin-right: 10px; 
 }
 
-@media (max-width: 768px) {
-    .objetivo {
-        margin-right: 0;
-    }
-   
-}
